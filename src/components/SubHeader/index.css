@@ -1,0 +1,15 @@
+.subheader-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #324053;
+    border-top: 1px solid #fff;
+}
+    
+@media (min-width: 768px){
+    .subheader-cont{
+        display: none;
+    }
+}

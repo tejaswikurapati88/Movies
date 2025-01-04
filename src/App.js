@@ -7,12 +7,14 @@ import NotFound from './components/NotFound'
 import MovieDetails from './components/MovieDetails'
 import SearchMovie from './components/SearchMovie'
 import './App.css'
+import SubHeader from './components/SubHeader'
 
 // write your code here
 const App = () => {
   return (
   <div className="bg-container">
     <Header />
+    <SubHeader className='subheader' />
     <Routes>
       <Route exact path="/" element={<Popular/>} />
       <Route exact path="/top-rated" element={<TopRated/>} />
