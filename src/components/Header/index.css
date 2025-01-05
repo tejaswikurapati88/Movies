@@ -5,15 +5,14 @@
     padding-top: 10px;
     align-items: center;
     background-color: #324053;
-    padding-left: 50px;
-    padding-right: 50px;
     width: 100%;
   }
-  @media (max-width: 425px){
+@media (max-width: 425px){
   .content-cont{
     display: none;
   }
   .header-cont{
+    display: flex;
     justify-content: center;
   }
 }

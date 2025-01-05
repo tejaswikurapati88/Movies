@@ -25,6 +25,11 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
+  @media (max-width: 425px) {
+    .movi-img{
+      width: 30%;
+    }
+  }
   .mo-name {
     color: #ffffff;
     font-family: 'bernard';
